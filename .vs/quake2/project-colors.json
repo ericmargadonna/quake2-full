@@ -10,7 +10,12 @@
       "ProjectGuid": "99bc3f01-a7ee-4881-939f-8a5eb75e1973",
       "DisplayName": "game",
       "ColorIndex": 1
+    },
+    "f575af4a-7bdd-47f6-b65f-f43c514e0069": {
+      "ProjectGuid": "f575af4a-7bdd-47f6-b65f-f43c514e0069",
+      "DisplayName": "quake2",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
