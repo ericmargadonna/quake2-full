@@ -5,7 +5,7 @@ readme is worth 10% of the grade! Maybe you, the humble reader, could complete w
 I could not. Or not, either way below is how to go about trying this out and/or
 changing it yourself.
 
-##How-To
+## How-To
 This code can be cloned, modified and built with Visual Studio if you're into that
 sorta thing however there is [another repo]() that has this version built already.
 
@@ -20,8 +20,8 @@ Clone it, move the Quake Volley Ball folder into your Quake 2 game folder
 Voila, you are now running my Quake 2 Mod!
 
 --------------------------------------------------------------------------
-##A Message from John Carmack
-###This was included with the Quake 2 Source Code
+## A Message from John Carmack
+### This was included with the Quake 2 Source Code
 
 This is the complete source code for Quake 2, version 3.19, buildable with
 visual C++ 6.0.  The linux version should be buildable, but we haven't
