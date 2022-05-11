@@ -468,9 +468,6 @@ void G_SetStats (edict_t *ent)
 		ent->client->ps.stats[STAT_TIMER_ICON] = gi.imageindex ("p_rebreather");
 		ent->client->ps.stats[STAT_TIMER] = (ent->client->breather_framenum - level.framenum)/10;
 	}
-	else if (ent->client->dive_framenum > level.framenum) {
-		ent->client->ps.stats[STAT_TIMER] = (ent->client->dive_framenum - level.framenum) / 10;
-	}
 	else
 	{
 		ent->client->ps.stats[STAT_TIMER_ICON] = 0;
