@@ -11,10 +11,12 @@ sorta thing however there is [another repo](https://github.com/ericmargadonna/QV
 
 If you decide to edit the code, you have to build 'game' in the project and move
 the output gamex86.dll into a folder alongside your baseq2 folder. Then your mod
-can be launched via shortcut, or from within Quake 2 itself.
+can be launched via shortcut, by adding
+`+set game <folder_name>`
+to the end of the "target" line in the shortcut.
 
 If you just want to run the code here as is, visit that [other repo](https://github.com/ericmargadonna/QVBModFolder).
-Clone it, then move it into your Quake 2 game folder 
+Clone it, name the folder 'VolleyBall' then move it into your Quake 2 game folder 
 (alongside the baseq2 folder) and run the included shortcut. 
 
 Voila, you are now running my Quake 2 Mod!
