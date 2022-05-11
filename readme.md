@@ -14,7 +14,7 @@ the output gamex86.dll into a folder alongside your baseq2 folder. Then your mod
 can be launched via shortcut, or from within Quake 2 itself.
 
 If you just want to run the code here as is, visit that [other repo](https://github.com/ericmargadonna/QVBModFolder).
-Clone it, move the Quake Volley Ball folder into your Quake 2 game folder 
+Clone it, then move it into your Quake 2 game folder 
 (alongside the baseq2 folder) and run the included shortcut. 
 
 Voila, you are now running my Quake 2 Mod!
