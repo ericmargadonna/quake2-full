@@ -901,7 +901,7 @@ void Cmd_PlayerList_f(edict_t *ent)
 }
 
 void Cmd_Show_Help(edict_t* ent) {
-	gi.centerprintf(ent, "Welcome to Quake VolleyBall\nThere's not much to do, but you can dive\nby pressing 'V'\n\nThis would also have the game rules but there's no game\nSo this will have to make do.");
+	gi.centerprintf(ent, "Welcome to Quake VolleyBall\nThere's not much to do, but you can dive\nby pressing 'V'\n\nThis would also have the game rules but\nthere's no game, so this will have to do.");
 }
 
 void Cmd_Dive(edict_t* ent) {
