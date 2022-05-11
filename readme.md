@@ -20,8 +20,8 @@ Clone it, move the Quake Volley Ball folder into your Quake 2 game folder
 Voila, you are now running my Quake 2 Mod!
 
 ## Features
-Press 'F' for Help Screen
-Press 'V' to dive
+- Press 'F' for Help Screen
+- Press 'V' to dive
 
 --------------------------------------------------------------------------
 ## A Message from John Carmack
