@@ -701,6 +701,13 @@ char *single_statusbar =
 "	xv	148 "
 "	pic	11 "
 "endif "
+
+//Dive Timer for Volleyball
+"if 18 "
+"	yb -24 "
+"	xr -24 "
+"	num 2 18 "
+"endif "
 ;
 
 char *dm_statusbar =

@@ -51,6 +51,8 @@ void MoveClientToIntermission (edict_t *ent)
 	ent->client->grenade_blew_up = false;
 	ent->client->grenade_time = 0;
 
+	ent->client->dive_framenum = 0;
+
 	ent->viewheight = 0;
 	ent->s.modelindex = 0;
 	ent->s.modelindex2 = 0;
@@ -466,10 +468,22 @@ void G_SetStats (edict_t *ent)
 		ent->client->ps.stats[STAT_TIMER_ICON] = gi.imageindex ("p_rebreather");
 		ent->client->ps.stats[STAT_TIMER] = (ent->client->breather_framenum - level.framenum)/10;
 	}
+	else if (ent->client->dive_framenum > level.framenum) {
+		ent->client->ps.stats[STAT_TIMER] = (ent->client->dive_framenum - level.framenum) / 10;
+	}
 	else
 	{
 		ent->client->ps.stats[STAT_TIMER_ICON] = 0;
 		ent->client->ps.stats[STAT_TIMER] = 0;
+	}
+
+	if (ent->client->dive_framenum > level.framenum) 
+	{
+		ent->client->ps.stats[STAT_DIVE_TIMER] = (ent->client->dive_framenum - level.framenum)/10;
+	}
+	else
+	{
+		ent->client->ps.stats[STAT_DIVE_TIMER] = 0;
 	}
 
 	//

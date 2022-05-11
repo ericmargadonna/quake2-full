@@ -962,6 +962,9 @@ struct gclient_s
 	float		breather_framenum;
 	float		enviro_framenum;
 
+	// volleyball timers
+	float		dive_framenum;
+
 	qboolean	grenade_blew_up;
 	float		grenade_time;
 	int			silencer_shots;
